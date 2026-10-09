@@ -1,82 +1,80 @@
-# Contact List Manager
+# 📇 Contact List Manager
 
-A full-stack contact management application designed to provide a clean, organized, and efficient way to create, manage, search, and maintain contact information.
+A full-stack application for creating, searching, and managing contacts, with a database layer for storing contact records.
 
-## 📌 Overview
+![Status](https://img.shields.io/badge/status-in%20development-orange)
+[Add badges for your actual stack, e.g. Java, Spring Boot, MySQL]
 
-**Contact List Manager** is a software project focused on managing personal or organizational contact information through a structured and user-friendly interface.
+## Screenshots
 
-The project is organized into separate areas for:
+[Add 2-3 screenshots: contact list, add/edit form, search results]
 
-- Application source code
-- User interface
-- Database
-- Tests
-- Generated resources
+## Features
 
-The goal is to provide a reliable foundation for storing and managing contacts while keeping the application maintainable and easy to extend.
+- **Create** new contacts
+- **View** contact details
+- **Update** existing contacts
+- **Delete** contacts
+- **Search** to find contacts quickly
+- **Database storage** for structured, persistent data
+- **Tests** to catch regressions as the project grows
 
----
+### Contact fields
 
-## ✨ Features
+| Field | Required |
+|---|---|
+| Full name | [yes/no] |
+| Phone number | [yes/no] |
+| Email address | [yes/no] |
+| Address | [yes/no] |
+| Company | [yes/no] |
+| Notes | [yes/no] |
 
-### 👤 Contact Management
+## Tech stack
 
-- Create new contacts
-- View contact information
-- Update existing contacts
-- Delete contacts
-- Organize contact information
-- Search and find contacts efficiently
+| Layer | Tools |
+|---|---|
+| Frontend / UI | [e.g. JavaFX, React] |
+| Backend | [e.g. Java, Node.js] |
+| Database | [e.g. MySQL, SQLite] |
+| Build tool | [e.g. Maven] |
+| Testing | [e.g. JUnit] |
 
-### 🗂️ Contact Information
-
-A contact can contain information such as:
-
-- Full name
-- Phone number
-- Email address
-- Address
-- Company
-- Notes
-- Other relevant contact details
-
-### 🔎 Search & Organization
-
-The application is designed to make it easy to:
-
-- Search contacts
-- Find specific information
-- Organize contact records
-- Manage larger contact lists
-
-### 🛡️ Data Management
-
-The project includes a dedicated database layer for storing contact information and maintaining structured data.
-
-### 🧪 Testing
-
-A dedicated test directory is included to support reliable development and help prevent regressions as the application grows.
-
----
-
-## 🏗️ Project Structure
-
-The repository is organized into several major components:
+## Project structure
 
 ```text
 contact-list-manager/
-│
-├── generated-sources/     # Generated project resources
-│
-├── interface/             # User interface resources
-│
-├── source/                # Main application source code
-│
-├── database/              # Database-related resources
-│
-├── test/                  # Test resources
-│
-├── .gitignore
-├── README.md
-└── ...    
+├── source/              # Main application source code
+├── interface/           # User interface resources
+├── database/            # Database scripts and resources
+├── test/                # Tests
+├── generated-sources/   # Generated resources
+└── .gitignore
+```
+
+## Getting started
+
+**Requirements:** [e.g. JDK 17+, Maven, MySQL]
+
+```bash
+git clone https://github.com/unmoha/contact-list-manager.git
+cd contact-list-manager
+[setup database command or script]
+[build command]
+[run command]
+```
+
+## Running tests
+
+```bash
+[test command, e.g. mvn test]
+```
+
+## Roadmap
+
+- [ ] [Next feature, e.g. import/export contacts]
+- [ ] [Another planned improvement]
+
+## Author
+
+**Anwar Mohammed** · [an8702299@gmail.com](mailto:an8702299@gmail.com) · [GitHub](https://github.com/unmoha)
